@@ -23,6 +23,19 @@ body{
 .nav-section{
     border-bottom: 5px solid #F2F2F2;
     width: 100%;
+    position: sticky !important;
+    top: 0 !important;
+}
+.nav-section::before{
+    content: '';
+    position: absolute !important;
+    width: 20px !important;
+    height: 20px;
+    background-color: #ecf2f9 !important;
+    transform: rotate(45deg);
+    top: 80px;
+    left: 20% !important;
+    
 }
 
 li{
@@ -34,8 +47,9 @@ a{
     margin: 20px;
 
 }
-a:hover{
+ li a:hover{
     color: #E172B5 !important;
+    border-bottom: 3px solid #4A71D4;
 }
 .header{
     font-size: 3.375rem !important;
@@ -92,6 +106,10 @@ a:hover{
     width: 45%;
     margin: 40px;
     word-spacing: 1px !important;
+ 
+}
+.smart-jackport{
+    background: #ecf2f9 !important;
 }
 .smart-text{
     font-size: 20px !important;
