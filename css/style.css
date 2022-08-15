@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #1E1E1E;
+    font-family: 'Actor' , 'sans-serif';
+}
+
+.container{
+  /* width: 90rem ; */
+    /* height: 411.0625rem !important;  */
+    background-color: #ffff;
+    color: #EFEFEF !important; 
+    border-radius: 8px;
+}
+.nav-section{
+    border-bottom: 5px solid #F2F2F2;
+    width: 100%;
+}
+
+li{
+    list-style: none ;
+}
+a{
+    color: #6B6868 !important;
+    text-decoration: none;
+    margin: 20px;
+
+}
+a:hover{
+    color: #E172B5 !important;
+}
+.header{
+    font-size: 3.375rem !important;
+}
+.hero-text{
+   margin-left: 4rem;
+  padding-top: 11rem;
+}
+.hero-section p{
+    font-size: 22px;
+}
+.check{
+    width: 35px;
+    height: 35px;
+    background-color:  rgb(231, 231, 12)!important;
+    border-radius: 50% !important;
+    
+    
+}
+.choice{
+    outline: 1px solid #EFEFEF;
+    border-radius: 25px;
+   /* font-size: 15px !important; */
+   width: 393px !important;
+   height: 45px;
+   background-color: #EFEFEF;
+}
+.feature-img{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px !important;
+}
+.fast{
+    font-size: 30px;
+    color: #ED4657;
+    margin-bottom: 7px;
+}
+.work{
+    font-size: 30px;
+    color:#39A962;
+    margin-bottom: 7px; 
+}
+.fast-paragraph{
+    font-size: 20px;
+}
+.prototype{
+    font-size: 30px;
+    color: #366FFF;
+    margin-bottom: 7px; 
+}
+
+.smart{
+    font-size: 40px !important;
+    width: 45%;
+    margin: 40px;
+    word-spacing: 1px !important;
+}
+.smart-text{
+    font-size: 20px !important;
+    margin:  0 40px;
+    border-left: 3px solid #C4C4C4;
+    padding-left: 30px;
+    width: 45%;
+}
+.jackport-card , .app-benefit {
+    margin:  0 40px !important;
+}
+.jack-icon{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px !important;  
+}
+.designed-section{
+    padding: 20px;
+}
+.designed-text {
+    font-size: 40px !important; 
+    color: #060505 !important;
+    font-weight: 400;
+}
+.designed-paragraph{
+    font-size: 20px;
+}
+.ultimate-feature{
+    margin: 0px 40px !important;
+}
+.ult-header{
+    /* margin-top: 200px; */
+}
+
+.app-paragraph{
+    font-size: 20px !important;
+}
+.app-header1{
+    font-size: 30px;
+    color: #E172B5;
+    margin-bottom: 7px;
+}
+.app-header2{
+    font-size: 30px;
+    color: #40A456;
+    margin-bottom: 7px; 
+}
+.app-header3{
+    font-size: 30px;
+    color: #0D53BD;
+    margin-bottom: 7px; 
+}
+.app-header4{
+    font-size: 30px;
+    color: #D9B268;
+    margin-bottom: 7px; 
+}
+.app-header5{
+    font-size: 30px;
+    color: #40A456;
+    margin-bottom: 7px; 
+}
+.app-header6{
+    font-size: 30px;
+    color: #E95F5F;
+    margin-bottom: 7px; 
+}
+.support-text{
+    font-size: 30px !important; 
+    color: #060505 !important;
+    font-weight: 400;
+}
+.supported-by{
+    margin: 0 40px !important;
+}
+.supported-img{
+    width: 200px;
+}
+h2{
+    font-size: 52px;
+}
+p{
+    font-size: 20px;
+}
+
+
+
