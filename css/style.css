@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Actor&family=Roboto:wght@300;400;500;700&display=swap');
 
 *{
     margin: 0;
@@ -10,15 +10,15 @@ body{
     width: 100%;
     height: 100%;
     background-color: #1E1E1E;
-    font-family: 'Actor' , 'sans-serif';
+    font-family: 'Roboto' , 'sans-serif';
 }
 
 .container{
-  /* width: 90rem ; */
+  width: 90rem !important; 
     /* height: 411.0625rem !important;  */
     background-color: #ffff;
-    color: #EFEFEF !important; 
     border-radius: 8px;
+  padding: 0 !important;
 }
 .nav-section{
     border-bottom: 5px solid #F2F2F2;
@@ -31,7 +31,7 @@ body{
     position: absolute !important;
     width: 20px !important;
     height: 20px;
-    background-color: #ecf2f9 !important;
+    background-color: #f4f5f7 !important;
     transform: rotate(45deg);
     top: 80px;
     left: 20% !important;
@@ -53,11 +53,20 @@ a{
 }
 .header{
     font-size: 3.375rem !important;
+    font-family:  'Actor' , 'sans-serif';
 }
 .hero-text{
    margin-left: 4rem;
   padding-top: 11rem;
 }
+
+.hero-section{
+    background-image: url(../img/Rectangle\ 25\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 .hero-section p{
     font-size: 22px;
 }
@@ -104,16 +113,16 @@ a{
 .smart{
     font-size: 40px !important;
     width: 45%;
-    margin: 40px;
+  padding: 40px;
     word-spacing: 1px !important;
  
 }
 .smart-jackport{
-    background: #ecf2f9 !important;
+    background-color:#f5f7f7 !important; 
 }
 .smart-text{
     font-size: 20px !important;
-    margin:  0 40px;
+    margin:   40px;
     border-left: 3px solid #C4C4C4;
     padding-left: 30px;
     width: 45%;
@@ -133,6 +142,7 @@ a{
     font-size: 40px !important; 
     color: #060505 !important;
     font-weight: 400;
+    margin-top: 100px;
 }
 .designed-paragraph{
     font-size: 20px;
@@ -143,7 +153,9 @@ a{
 .ult-header{
     /* margin-top: 200px; */
 }
-
+.app-benefit{
+    background-color:#f5f7f7 !important;
+}
 .app-paragraph{
     font-size: 20px !important;
 }
@@ -183,7 +195,9 @@ a{
     font-weight: 400;
 }
 .supported-by{
-    margin: 0 40px !important;
+   padding: 40px !important;
+    padding-bottom: 10px;
+    background-color:#f5f7f7 !important;
 }
 .supported-img{
     width: 200px;
@@ -194,6 +208,28 @@ h2{
 p{
     font-size: 20px;
 }
+.card-header{
+    background-color:#f5f7f7 !important;  
+}
+.footer-section {
+    margin-top: 20px !important;
+   background-color:#f5f7f7 !important;
+   width: 100% !important;
+   margin-left: 0 !important;
+}
 
-
+.card-row{
+justify-content: center !important;
+margin: 20px!important;
+}
+.first-column{
+    width: 18rem !important;
+    margin: 20px!important;
+}
+.amount{
+    font-size: 80px !important;
+}
+span{
+    font-size: 30px !important;
+}
 
