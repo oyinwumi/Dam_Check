@@ -152,6 +152,7 @@ a{
 }
 .ult-header{
     /* margin-top: 200px; */
+    font-size: 30px !important;
 }
 .app-benefit{
     background-color:#f5f7f7 !important;
