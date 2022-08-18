@@ -234,3 +234,6 @@ span{
     font-size: 30px !important;
 }
 
+.image-fluid{
+    width: 90vh;
+}
